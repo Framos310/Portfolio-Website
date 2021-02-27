@@ -1,0 +1,139 @@
+/***** Base Styles *****/
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1f202b;
+}
+
+/***** Grid *****/
+.full-width{
+    width: 1200px;
+  
+}
+.half-width{
+    width: 600px;
+    float: left;
+    margin-bottom:50px;
+}
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+/***** Header *****/
+header{
+    height: 100px;
+    width: 1200px;
+}
+header h1{
+    color:white;
+    font-size: 30px;
+    font-family: 'Montserrat' , sans-serif;
+    padding-left: 30px;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    font-size: 30px;
+    padding-left: 45px;
+    text-decoration: none;
+}
+.code h2{
+    width:1200px;
+    clear: both;
+    font-family:  'Source Code Pro', monospace;
+    font-size: 72px;
+    color: white;
+    padding-top: 250px;
+    margin: 0 auto;
+    margin-left: 50px;
+  
+
+}
+
+
+#top-section{
+    background: url("../img/hero-background.png");
+    background-position:center;
+    background-size: cover;
+    height: 800px;
+    width: 1200px;
+
+}
+.code span{
+    color: #fa0075
+}
+
+
+/***** Work *****/
+#portfolio .full-width{
+    color: white;
+    width: 1200px;   
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    clear:both
+}
+
+#portfolio .right-side p{
+   float: left;
+   width: 550px;
+   text-align: right;
+}
+
+h3{
+    color: #fa0075;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    width: 1200px;
+}
+.bold{
+    font-weight: bold;
+    
+}
+
+
+
+/***** About *****/
+#about{
+    width: 1200px;
+    height: 550px;
+    float: left;
+    background-image: url("../img/about-me.png");
+    background-position: center;
+    background-size: cover;
+    clear: both;
+}
+#about h3{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    color: #fa0075;
+    text-align: center;
+
+}
+#about p{
+    font-size: 24px;
+    color: black;
+    padding-left: 120px;
+}
+
+/***** Contact *****/
+#contact{
+    width: 1200px;
+    height: 400px;
+    color: white;
+    text-align: center;
+    clear: both;
+}
+
+#contact ul{
+    padding: 0 0;
+}
+
+
+
